@@ -1,0 +1,4 @@
+name: ClaimsPlugin
+version: '${project.version}'
+main: com.pincerdevelopment.claimsplugin.ClaimsPlugin
+api-version: '1.20'
