@@ -67,5 +67,21 @@
           <version>1.20.4-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
       </dependency>
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.32</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>com.j256.ormlite</groupId>
+          <artifactId>ormlite-core</artifactId>
+          <version>5.1</version>
+      </dependency>
+      <dependency>
+          <groupId>com.j256.ormlite</groupId>
+          <artifactId>ormlite-jdbc</artifactId>
+          <version>5.1</version>
+      </dependency>
   </dependencies>
 </project>

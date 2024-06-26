@@ -2,3 +2,11 @@ name: ClaimsPlugin
 version: '${project.version}'
 main: com.pincerdevelopment.claimsplugin.ClaimsPlugin
 api-version: '1.20'
+
+commands:
+  claim:
+    description: Start the land claiming process.
+    usage: /claim <name or confirm>
+  unclaim:
+    description: Unclaim your land.
+    usage: /unclaim
